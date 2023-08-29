@@ -6,7 +6,7 @@ This C# project uses <a href="https://www.vintasoft.com/vsimaging-dotnet-index.h
 
 
 ## Screenshot
-<img src="vintasoft-dicom-metadata-demo.png" alt="VintaSoft DICOM Metadata Demo">
+<img src="vintasoft-dicom-metadata-demo.png" title="VintaSoft DICOM Metadata Demo">
 
 
 ## Usage
