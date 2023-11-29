@@ -139,7 +139,12 @@ namespace DicomMetadataEditorDemo
             get
             {
                 if (_dicomFrameMetadata == null && DicomFile != null)
-                    _dicomFrameMetadata = new DicomFrameMetadata(DicomFile);
+                {
+                    if (DicomFile.Pages.Count != 0)
+                        _dicomFrameMetadata = new DicomFrameMetadata(DicomFile, DicomFile.Pages[0]);
+                    else
+                        _dicomFrameMetadata = new DicomFrameMetadata(DicomFile);
+                }
 
                 return _dicomFrameMetadata;
             }
