@@ -430,10 +430,10 @@ namespace DicomMetadataEditorDemo
             if (transferSyntaxUidDataElement != null)
             {
                 DicomUid uid = (DicomUid)transferSyntaxUidDataElement.Data;
-                if (uid.Id == DicomUidId.Mpeg2MainProfileHighLevel ||
-                    uid.Id == DicomUidId.Mpeg2MainProfileMainLevel ||
-                    uid.Id == DicomUidId.Mpeg4AvcH264BdCompatibleHighprofileLevel41 ||
-                    uid.Id == DicomUidId.Mpeg4AvcH264HighProfileLevel41)
+                if (uid.Id == DicomUidId.MPEG2MPHL ||
+                    uid.Id == DicomUidId.MPEG2MPML ||
+                    uid.Id == DicomUidId.MPEG4HP41BDF ||
+                    uid.Id == DicomUidId.MPEG4HP41)
                     return true;
                 else
                     return false;
