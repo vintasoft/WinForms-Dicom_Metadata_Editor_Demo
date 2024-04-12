@@ -179,7 +179,7 @@ namespace DicomMetadataEditorDemo
         #region 'File' menu
 
         /// <summary>
-        /// Handles the Click event of OpenDicomFilesToolStripMenuItem object.
+        /// Handles the Click event of openDicomFilesToolStripMenuItem object.
         /// </summary>
         private void openDicomFilesToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -199,7 +199,7 @@ namespace DicomMetadataEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of SaveCurrentDicomFileToolStripMenuItem object.
+        /// Handles the Click event of saveCurrentDicomFileToolStripMenuItem object.
         /// </summary>
         private void saveCurrentDicomFileToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -217,7 +217,7 @@ namespace DicomMetadataEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of SaveCurrentDicomFileToToolStripMenuItem object.
+        /// Handles the Click event of saveCurrentDicomFileToToolStripMenuItem object.
         /// </summary>
         private void saveCurrentDicomFileToToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -237,7 +237,7 @@ namespace DicomMetadataEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of CloseDicomSeriesToolStripMenuItem object.
+        /// Handles the Click event of closeDicomSeriesToolStripMenuItem object.
         /// </summary>
         private void closeDicomSeriesToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -246,7 +246,7 @@ namespace DicomMetadataEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of ExitToolStripMenuItem object.
+        /// Handles the Click event of exitToolStripMenuItem object.
         /// </summary>
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -259,7 +259,7 @@ namespace DicomMetadataEditorDemo
         #region 'Metadata' menu
 
         /// <summary>
-        /// Handles the Click event of SaveEmbeddedVideoFileToolStripMenuItem object.
+        /// Handles the Click event of saveEmbeddedVideoFileToolStripMenuItem object.
         /// </summary>
         private void saveEmbeddedVideoFileToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -285,7 +285,7 @@ namespace DicomMetadataEditorDemo
         #region 'Help' menu
 
         /// <summary>
-        /// Handles the Click event of AboutToolStripMenuItem object.
+        /// Handles the Click event of aboutToolStripMenuItem object.
         /// </summary>
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
