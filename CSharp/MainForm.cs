@@ -122,31 +122,35 @@ namespace DicomMetadataEditorDemo
 
                 if (_dicomFile == null)
                 {
-                    _dicomFrameMetadata = null;
+                    _dicomPageMetadata = null;
                     _dicomFileContainsMpegFile = false;
                 }
 
-                dicomMetadataEditorControl1.RootMetadataNode = DicomFrameMetadata;
+                dicomMetadataEditorControl1.RootMetadataNode = DicomPageMetadata;
             }
         }
 
-        DicomFrameMetadata _dicomFrameMetadata;
+        DicomPageMetadata _dicomPageMetadata;
         /// <summary>
-        /// Gets the DICOM frame metadata.
+        /// Gets the DICOM page metadata.
         /// </summary>
-        DicomFrameMetadata DicomFrameMetadata
+        DicomPageMetadata DicomPageMetadata
         {
             get
             {
-                if (_dicomFrameMetadata == null && DicomFile != null)
+                if (_dicomPageMetadata == null && DicomFile != null)
                 {
                     if (DicomFile.Pages.Count != 0)
-                        _dicomFrameMetadata = new DicomFrameMetadata(DicomFile, DicomFile.Pages[0]);
+                    {
+                        _dicomPageMetadata = DicomPageMetadata.Create(DicomFile, DicomFile.Pages[0]);
+                    }
                     else
-                        _dicomFrameMetadata = new DicomFrameMetadata(DicomFile);
+                    {
+                        _dicomPageMetadata = new DicomPageMetadata(DicomFile);
+                    }
                 }
 
-                return _dicomFrameMetadata;
+                return _dicomPageMetadata;
             }
         }
 
