@@ -1,4 +1,4 @@
-namespace DicomMetadataEditorDemo
+﻿namespace DicomMetadataEditorDemo
 {
     partial class MainForm
     {
@@ -47,7 +47,7 @@ namespace DicomMetadataEditorDemo
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.saveDicomFileDialog = new System.Windows.Forms.SaveFileDialog();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
-            this.dicomMetadataEditorControl1 = new DemosCommonCode.Imaging.DicomMetadataEditorControl();
+            this.dicomMetadataEditorControl1 = new CommonCode.Imaging.DicomMetadataEditorControl();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -225,6 +225,6 @@ namespace DicomMetadataEditorDemo
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
         private System.Windows.Forms.SaveFileDialog saveDicomFileDialog;
         private System.Windows.Forms.ColorDialog colorDialog1;
-        private DemosCommonCode.Imaging.DicomMetadataEditorControl dicomMetadataEditorControl1;
+        private CommonCode.Imaging.DicomMetadataEditorControl dicomMetadataEditorControl1;
     }
 }

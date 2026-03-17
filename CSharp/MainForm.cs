@@ -3,7 +3,7 @@ using System.Collections.ObjectModel;
 using System.IO;
 using System.Windows.Forms;
 
-using DemosCommonCode;
+using CommonCode;
 
 using Vintasoft.Imaging;
 using Vintasoft.Imaging.Codecs;
